@@ -1,0 +1,104 @@
+@import'/style2.css';
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: verdana;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+ 
+p{
+    font-style: italic;
+    text-decoration: dotted ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.txt{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+    letter-spacing: 4px;
+    word-spacing: 20px;
+    background-color: maroon;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+.box-model{
+    border: 1px solid red;
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    color: red;
+    font-size: 20px;
+}
+
+h2{
+    color: green;
+    font-size: 20px;
+}
+
+h3{
+    color: magenta;
+    font-size: 25px;
+}
+
+.sub{
+    color: maroon;
+}
+
+#sub1{
+    color: blue;
+}
+
+.inherit{
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+th, td{
+    border: 1px solid red;
+    padding: 15px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+}
+td{
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+form{
+    margin: 10px 20px;
+    
+}
+
+input{
+    display: block;
+    width: 50%;
+    
+}
+label{
+    padding: 20px 0;
+    margin: 30px 0;
+}

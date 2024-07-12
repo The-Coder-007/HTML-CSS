@@ -1,0 +1,47 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 3rem;
+}
+body{
+    margin: o;
+}
+
+.container{
+    border: 6px solid black;
+}
+
+.flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1{
+    background-color: #b4bf35;
+}
+.item-2{
+    background-color: #35bf57;
+}
+.item-3{
+    background-color: #5735bf;
+}
+.item-4{
+    background-color: #bf3561;
+}
+.item-5{
+    background-color: #35aabf;
+}
+.item-6{
+    background-color: #470655;
+}
+.item-7{
+    background-color: #052c12;
+}
+.item-8{
+    background-color: #340204;
+}
+.item-9{
+    background-color: #040e4a;
+}

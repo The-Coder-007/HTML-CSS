@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Crash Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- inline css -->
+
+    <!-- <h1 style="color:red;">Hello World</h1>
+        <input type="color" name="favcolor" value="#ff0000" /> -->
+/
+    <h1>Element Selector. </h1>
+
+
+
+    <p>Font style prop.</p>
+
+    <div class="txt">
+        text alignment and class selector.
+    </div>
+
+    <ul>
+        <li>milk</li>
+        <li>bread</li>
+        <li>icecream</li>
+    </ul>
+
+    <div class="box-model">
+        CSS box Model.
+    </div>
+
+    <h2>Cascade</h2>
+
+    <h3 class="sub" id="sub1">Specificity</h3>
+
+    <div class="inherit">
+        <p>Inheritance </p>
+    </div>
+
+    <table>
+        <thead>
+            <th>heading 1</th>
+            <th>heading 2</th>
+            <th>heading 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hello</td>
+                <td>hello</td>
+                <td>hello</td>
+            </tr>
+            <tr>
+                <td>hello</td>
+                <td>hello</td>
+                <td>hello</td>
+            </tr>
+            <tr>
+                <td>hello</td>
+                <td>hello</td>
+                <td>hello</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" />
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" />
+
+        <label for="email">Enter Your Email</label>
+        <input type="email" id="email" />
+
+        <label for="phone">Enter your Phone number</label>
+        <input type="number" id="phone" />
+
+        <label for="massage"> Massage here</label> <br />
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+
+        <input type="file" name="pic" />
+        <input type="submit" value="Upload" />
+
+
+        <form>
+            <fieldset>
+                <legend>1st field set:</legend>
+                Field one:<br>
+                <input type="text"><br>
+                Field two:<br>
+                <input type="text"><br>
+                Field three:<br>
+                <input type="text"><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>2nd field set:</legend>
+                Field three:<br>
+                <input type="text"><br>
+                Field four:<br>
+                <input type="text"><br>
+            </fieldset><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </form>
+    <section>
+     <!-- Each individual blog post is an <article> -->
+ <article>
+    <header>
+    <h1>Blog Post</h1>
+    <time datetime="2016-03-13">13th March 2016</time>
+    </header>
+    <p>The article element represents a self contained article or document.</p>
+    <p>The section element represents a grouping of content.</p>
+    <section>
+    <h2>Comments <small>relating to "Blog Post"</small></h2>
+    <!-- Related comment is also a self-contained article -->
+    <article id="user-comment-1">
+    <p>Excellent!</p>
+    <footer><p>...</p><time>...</time></footer>
+    </article>
+    </section>
+    </article>
+    <!-- ./repeat: <article> -->
+   </section>
+   <!-- Content unrelated to the blog or posts should be outside the section. -->
+
+   <ul role="tree">
+    <li role="treeitem">
+    Part 1
+    <ul>
+    <li role="treeitem">Chapter 1</li>
+    <li role="treeitem">Chapter 2</li>
+    <li role="treeitem">Chapter 3</li>
+    </ul>
+    </li>
+    <li role="treeitem">
+    Part 2
+    <ul>
+    <li role="treeitem">Chapter 4</li>
+    <li role="treeitem">Chapter 5</li>
+    <li role="treeitem">Chapter 6</li>
+    </ul>
+    </li>
+    <li role="treeitem">
+    Part 3
+    <ul>
+        <li role="treeitem">Chapter 7</li>
+        <li role="treeitem">Chapter 8</li>
+        <li role="treeitem">Chapter 9</li>
+        </ul>
+        </li>
+       </ul>
+
+       <span aria-describedby="slopedesc">Slope</span>
+<div role="tooltip" id="slopedesc">y=mx+b</div>
+
+   <footer>
+    <p>This content should be unrelated to the blog.</p>
+</footer>
+
+
+</body>
+
+</html>

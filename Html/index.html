@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Basics</title>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <h2>Headng 2 </h2>
+        <h3>Headng 3 </h3>
+        <h4>Headng 4 </h4>
+        <h5>Headng 5 </h5>
+        <h6>Headng 6 </h6>
+
+        <p>This is the Paragraph.</p>
+        <p>This is another Paragraph.</p>
+        <p><strong>Lorem</strong>  ipsum dolor sit <b>amet</b> consectetur, <i>adipisicing</i> <em>elit.</em> Reprehenderit sed ipsa voluptatem! Placeat eligendi, <del>vero natus aspernatur commodi</del> nesciunt ipsa, <ins>animi saepe</ins> odit vel impedit, <mark>magni</mark> quia eum quod rerum? <br /> H <sub>2</sub>S<sub>o 4</sub>  <br /> 10<sup>4</sup></p>
+        <hr />
+
+        <div>Block 1 </div>
+        <div>Block 2 </div>
+        <span>Inline 1</span>
+        <span>Inline 2</span>
+
+        <hr>        <h3>Threee types of list - <br> <p> 1 - unroderd list <br> 2 - ordered list <br> 3 - description list </p></h3>
+        <ul>
+            <li>Milk</li>
+            <li>Bread</li>
+            <li>Toast</li>
+        </ul>
+
+        <ol type="1">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+        <ol type="a">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+        <ol type="A">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+        <ol type="i">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+        <ol type="I">
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ol>
+
+        <ol start="9">
+            <li>item 1</li>
+            <li>item 1</li>
+            <li>item 1</li>
+            <li>item 1</li>
+        </ol>
+
+        <ol reversed>
+            <li>Reach point A</li>
+            <li>Turn Left</li>
+            <li>Turn Left</li>
+            <li>Turn Left</li>
+            <li value="4">Reach point B</li>
+            <li>Turn Left</li>
+            <li>Turn Left</li>
+            <li>Turn Left</li>
+        </ol>
+
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- A hot thing</dd>
+            <dt>Icecream</dt>
+            <dd>- A Soft thing</dd>
+        </dl>
+
+        <dl>
+            <dt>name 1</dt>
+            <dt>name 2</dt>
+            <dd>value for 1 and 2</dd>
+            <dt>name 3</dt>
+            <dd>value for 3</dd>
+            <dd>value for 3</dd>
+        </dl>
+
+        <img src="hero.jpg" alt="movies poster" width="200" height="300" />
+
+        <a href="https://google.com" target="_blank">Google</a>
+        <a href="home.html" >back to home</a>
+
+        <h4>Table</h4>
+        
+        <table>
+            <thead>
+               <tr>
+                <th>Heaading 1</th>
+                <th>Heaading 2</th>
+                <th>Heaading 3</th>
+               </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                    <td>Data 3</td>
+                </tr>
+                <tr>
+                    <td>Data 4</td>
+                    <td>Data 5</td>
+                    <td>Data 6</td>
+                </tr>
+                <tr>
+                    <td>Data 7</td>
+                    <td>Data 8</td>
+                    <td>Data 9</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <table style="border: 2px solid; ">
+            <tr>
+                <td>Row 1 / Col 1</td>
+                <td>Row 1 / Col 2</td>
+                <td>Row 1 / Col 3</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"> This is second row span take all cell </td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2"> This cell span two rows</td>
+                <td>Row 3 / Col 2</td>
+                <td>Row 3 / Col 3</td>
+            </tr>
+            <tr>
+                <td>Row 4 / Col 2</td>
+                <td>Row 4 / Col 3</td>
+            </tr>
+         </table>
+
+         <table>
+            <colgroup span="2">
+            <col id="column" />
+            </colgroup>
+            <colgroup span="2"></colgroup>
+         </table>
+
+        <form>
+            <label for="username">Username :</label> <br>
+            <input type="text" name="username" id="username" /> <br><br>
+            <label for="about">About</label> <br>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            <br> <br>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Veitnam">Vietnam</option>
+            </select>
+            <br> <br>
+            <label >Job Types</label> <br>
+            <input type="radio" name="jobtype" value="partime" id="parttime"> <label for="parttime">Part time</label> <br>
+            <input type="radio" name="jobtype" value="fulltime" id="fulltime"> <label for="fulltime">Full time</label>
+            <br><br>
+            <input type="checkbox" name="jobtypecb" value="partime" id="parttime"> <label for="parttime">Part time</label> <br>
+            <input type="checkbox" name="jobtypecb" value="fulltime" id="fulltime"> <label for="fulltime">Full time</label>
+            <br>
+            <button>Submit</button>
+
+
+
+        </form>
+
+    </body>
+</html>
